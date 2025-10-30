@@ -1,0 +1,17 @@
+Django>=5.2,<5.3
+python-decouple>=3.8
+psycopg2-binary>=2.9  # For PostgreSQL (when ready to switch from SQLite)
+Pillow>=10.0  # For image handling
+djangorestframework>=3.14  # For building REST APIs
+django-cors-headers>=4.0  # For CORS handling
+django-filter>=23.0  # For filtering querysets
+
+# Development dependencies
+pytest>=7.4
+pytest-django>=4.5
+black>=23.0  # Code formatting
+flake8>=6.0  # Linting
+mypy>=1.5  # Type checking
+django-debug-toolbar>=4.2  # Development debugging
+factory-boy>=3.3  # Test factories
+faker>=19.0  # Fake data generation for tests
